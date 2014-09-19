@@ -1,0 +1,1 @@
+GET   /findByLastName    controllers.HelloWorld.findByLastName(lastName: String)
