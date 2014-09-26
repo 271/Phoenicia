@@ -1,1 +1,1 @@
-GET   /findByLastName    controllers.HelloWorld.findByLastName(lastName: String)
+POST   /subscribe    controllers.GraphController.subscribe

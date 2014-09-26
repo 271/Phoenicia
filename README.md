@@ -14,9 +14,25 @@ Add 1000 to this port and open it in your browser to view the rest interface. I 
 
 Handy commands:
 ---------------
-Drop database: `./bin/mongo phoenicia --eval "db.dropDatabase()"`
+# Drop database: change directory to mongodb and then run:
 
-Setup sample db: `./mongo < /Phoenicia/scripts/db/sample.js`
+`./bin/mongo phoenicia --eval "db.dropDatabase()`
+
+
+# Setup sample db: change directory to Phoenicia and then run:
+
+`../mongodb-osx-x86_64-2.6.4/bin/mongo < ./scripts/db/sample.js`
+
+# View records through shell:
+
+`./bin/mongo`
+
+`show dbs`
+
+`use phoenicia`
+
+`db.graph.count()`
+
 
 Install SBT
 ============
@@ -30,5 +46,4 @@ Start Phoenicia
 Start Phoenicia in dev mode (to benefit from auto-reloading feature)
 `~run`
 
-By default, Phoenicia runs on port 9000. If you would like to change it, you can run as: `sbt "run 9002"`
-
+By default, Phoenicia runs on port 9000. If you would like to change it to say 9002, you can run: `sbt "run 9002"`
