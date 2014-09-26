@@ -1,0 +1,1 @@
+POST   /subscribe    controllers.GraphController.subscribe
