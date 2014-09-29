@@ -1,0 +1,88 @@
+{
+    "type": "Ext.tab.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "activeTab": 0,
+        "designer|userClassName": "MyTabPanel",
+        "height": 250,
+        "width": 400
+    },
+    "designerId": "a66cdbbe-d4f7-4287-a522-13057a634f92",
+    "cn": [
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": 214,
+                "title": "Items",
+                "width": 400
+            },
+            "designerId": "c3cb0727-8099-4269-b1eb-d080efeda9df",
+            "cn": [
+                {
+                    "type": "Ext.tab.Tab",
+                    "reference": {
+                        "name": "tabConfig",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "designerId": "91dddd00-cabc-4c5a-af10-13d4ddcc67b7"
+                }
+            ]
+        },
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "Services"
+            },
+            "designerId": "452f4078-6b49-4a23-86b6-024d351d6fd1",
+            "cn": [
+                {
+                    "type": "Ext.tab.Tab",
+                    "reference": {
+                        "name": "tabConfig",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "designerId": "9b0de37d-a9cf-43e0-86e3-52cb36e7450b"
+                }
+            ]
+        },
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "Common/Shared Items"
+            },
+            "designerId": "cf673480-49c9-45c8-b71e-b6618a8a0c7f",
+            "cn": [
+                {
+                    "type": "Ext.tab.Tab",
+                    "reference": {
+                        "name": "tabConfig",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "designerId": "16a3fe2f-ecf4-4ea1-a36a-f60854af772e"
+                }
+            ]
+        }
+    ]
+}
