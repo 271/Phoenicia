@@ -1,0 +1,26 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "controllers": [
+            "Account",
+            "MyController"
+        ],
+        "name": "ArtExchange",
+        "requires": [
+            "Ext.window.MessageBox"
+        ],
+        "views": [
+            "MainView",
+            "LoginForm",
+            "RegisterForm",
+            "MyForm2",
+            "MyTabPanel"
+        ]
+    },
+    "designerId": "application"
+}
